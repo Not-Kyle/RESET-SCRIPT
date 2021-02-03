@@ -4,4 +4,5 @@ function onKeyPress(actionName, userInputState, inputObject)
        game.Players.LocalPlayer.Character:BreakJoints()
    end
 end
-game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.R) --change 'R' to another key if you want to change it
+game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.P)
+ -- press P to reset you fucking loser
